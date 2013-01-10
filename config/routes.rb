@@ -1,4 +1,8 @@
 SampleApp::Application.routes.draw do
+  get "sttic_pages/home"
+
+  get "sttic_pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
